@@ -12,7 +12,7 @@
 		082CCCE72B9F33A60037878A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCCE62B9F33A60037878A /* ViewController.swift */; };
 		082CCCEC2B9F33A90037878A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082CCCEB2B9F33A90037878A /* Assets.xcassets */; };
 		082CCCEF2B9F33A90037878A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082CCCED2B9F33A90037878A /* LaunchScreen.storyboard */; };
-		85C5FF15D38AF8CE54748BF6 /* Pods_MyEconomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5783B1CAD70667764FE6D2 /* Pods_MyEconomy.framework */; };
+		F1CA0DF8192ED069721DBA67 /* Pods_MyEconomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F0A0EFCBE4528E7BD8322D /* Pods_MyEconomy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		082CCCEB2B9F33A90037878A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082CCCEE2B9F33A90037878A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		082CCCF02B9F33A90037878A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F5783B1CAD70667764FE6D2 /* Pods_MyEconomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyEconomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F0A0EFCBE4528E7BD8322D /* Pods_MyEconomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyEconomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E504C03B1C04421F0DC7C7AE /* Pods-MyEconomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEconomy.debug.xcconfig"; path = "Target Support Files/Pods-MyEconomy/Pods-MyEconomy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C5FF15D38AF8CE54748BF6 /* Pods_MyEconomy.framework in Frameworks */,
+				F1CA0DF8192ED069721DBA67 /* Pods_MyEconomy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 		5F8C04E97D3102BE8D45B021 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F5783B1CAD70667764FE6D2 /* Pods_MyEconomy.framework */,
+				38F0A0EFCBE4528E7BD8322D /* Pods_MyEconomy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,7 +101,6 @@
 				E504C03B1C04421F0DC7C7AE /* Pods-MyEconomy.debug.xcconfig */,
 				07105082A0A2E22A28CAFEDD /* Pods-MyEconomy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
