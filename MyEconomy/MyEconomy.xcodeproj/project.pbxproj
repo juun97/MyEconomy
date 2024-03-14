@@ -12,6 +12,7 @@
 		082CCCE72B9F33A60037878A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CCCE62B9F33A60037878A /* ViewController.swift */; };
 		082CCCEC2B9F33A90037878A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082CCCEB2B9F33A90037878A /* Assets.xcassets */; };
 		082CCCEF2B9F33A90037878A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082CCCED2B9F33A90037878A /* LaunchScreen.storyboard */; };
+		08EE24AE2BA314560099D0FA /* StockInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE24AD2BA314560099D0FA /* StockInfoViewController.swift */; };
 		F1CA0DF8192ED069721DBA67 /* Pods_MyEconomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F0A0EFCBE4528E7BD8322D /* Pods_MyEconomy.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		082CCCEB2B9F33A90037878A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082CCCEE2B9F33A90037878A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		082CCCF02B9F33A90037878A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EE24AD2BA314560099D0FA /* StockInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockInfoViewController.swift; sourceTree = "<group>"; };
 		38F0A0EFCBE4528E7BD8322D /* Pods_MyEconomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyEconomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E504C03B1C04421F0DC7C7AE /* Pods-MyEconomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEconomy.debug.xcconfig"; path = "Target Support Files/Pods-MyEconomy/Pods-MyEconomy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 			children = (
 				082CCCF72B9F35D90037878A /* Application */,
 				082CCCE62B9F33A60037878A /* ViewController.swift */,
+				08EE24A92BA30F660099D0FA /* Presentation */,
 				082CCCF62B9F34020037878A /* Resources */,
 			);
 			path = MyEconomy;
@@ -85,6 +88,22 @@
 				082CCCE42B9F33A60037878A /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		08EE24A92BA30F660099D0FA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				08EE24AA2BA30FC80099D0FA /* StockInfoScene */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		08EE24AA2BA30FC80099D0FA /* StockInfoScene */ = {
+			isa = PBXGroup;
+			children = (
+				08EE24AD2BA314560099D0FA /* StockInfoViewController.swift */,
+			);
+			path = StockInfoScene;
 			sourceTree = "<group>";
 		};
 		5F8C04E97D3102BE8D45B021 /* Frameworks */ = {
@@ -221,6 +240,7 @@
 				082CCCE72B9F33A60037878A /* ViewController.swift in Sources */,
 				082CCCE32B9F33A60037878A /* AppDelegate.swift in Sources */,
 				082CCCE52B9F33A60037878A /* SceneDelegate.swift in Sources */,
+				08EE24AE2BA314560099D0FA /* StockInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RA77GBK8U2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyEconomy/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -395,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RA77GBK8U2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyEconomy/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
